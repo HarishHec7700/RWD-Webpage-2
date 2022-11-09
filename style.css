@@ -780,13 +780,13 @@
         /* margin-right: 2rem; */
     }
 
-    .col-1 {
-        max-width: 100%;
-        margin-bottom: 2rem;
+    .col-1 ,.col-2,.col-3{
+        width: 100%;
     }
     .port-image{
         width: 100%;
         position: relative;
+        margin-bottom: 2rem;
     }
 
     .port-img-cont{
@@ -830,6 +830,7 @@
         align-items: center; 
         text-align: center;
         flex-wrap: wrap;
+        height: 100%;
     }
     .port-img-cont{
         gap: 1rem;
@@ -838,22 +839,22 @@
         opacity: 0.7;
         transition: all ease-in-out 0.5s;
     }
+    .port-img-cont-icon{
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    .port-img-cont-icon a{
+        font: 1.5rem;
+    }
     .port-img-cont-icon,.port-img-cont h3,.port-img-cont p{
         width: 100%;
-    }
-    .col-2 {
-        max-width: 100%;
-        margin-bottom: 2rem;
     }
 
     /* #col2-diff {
         height: 40%;
     } */
 
-    .col-3 {
-        max-width: 100%;
-        margin-bottom: 2rem;
-    }
+    
 
     .col-1::before {
         content: "";
@@ -2350,13 +2351,13 @@
         /* margin-right: 2rem; */
     }
 
-    .col-1 {
-        max-width: 100%;
-        margin-bottom: 2rem;
+    .col-1,.col-2,.col-3 {
+        width: 100%;
     }
     .port-image{
         width: 100%;
         position: relative;
+        margin-bottom: 2rem;
     }
 
     .port-img-cont{
@@ -2400,6 +2401,14 @@
         align-items: center; 
         text-align: center;
         flex-wrap: wrap;
+        height: 100%;
+    }
+    .port-img-cont-icon{
+        justify-content: center;
+        gap: 1rem;    
+    }
+    .port-img-cont-icon a{
+        font-size: 1.5rem;
     }
     .port-img-cont{
         gap: 1rem;
@@ -2411,19 +2420,10 @@
     .port-img-cont-icon,.port-img-cont h3,.port-img-cont p{
         width: 100%;
     }
-    .col-2 {
-        max-width: 100%;
-        margin-bottom: 2rem;
-    }
 
     /* #col2-diff {
         height: 40%;
     } */
-
-    .col-3 {
-        max-width: 100%;
-        margin-bottom: 2rem;
-    }
 
     .col-1::before {
         content: "";
@@ -3486,13 +3486,14 @@
         /* margin-right: 2rem; */
     }
 
-    .col-1 {
-        max-width: 100%;
-        margin-bottom: 2rem;
+    .col-1,.col-2,.col-3 {
+        width: 100%;
     }
     .port-image{
         width: 100%;
         position: relative;
+        margin-bottom: 2rem;
+
     }
 
     .port-img-cont{
@@ -3536,6 +3537,14 @@
         align-items: center; 
         text-align: center;
         flex-wrap: wrap;
+        height: 100%;
+    }
+    .port-img-cont-icon{
+        justify-content: center;
+        gap: 1rem;
+    }
+    .port-img-cont-icon a{
+        font-size: 1.5rem;
     }
     .port-img-cont{
         gap: 1rem;
@@ -3547,19 +3556,12 @@
     .port-img-cont-icon,.port-img-cont h3,.port-img-cont p{
         width: 100%;
     }
-    .col-2 {
-        max-width: 100%;
-        margin-bottom: 2rem;
-    }
+
 
     /* #col2-diff {
         height: 40%;
     } */
 
-    .col-3 {
-        max-width: 100%;
-        margin-bottom: 2rem;
-    }
 
     .col-1::before {
         content: "";
@@ -4947,13 +4949,14 @@
         /* margin-right: 2rem; */
     }
 
-    .col-1 {
-        max-width: 100%;
-        margin-bottom: 2rem;
+    .col-1,.col-2,.col-3 {
+        width: 100%;
     }
+    
     .port-image{
         width: 100%;
         position: relative;
+        margin-bottom: 2rem;
     }
 
     .port-img-cont{
@@ -4997,6 +5000,7 @@
         align-items: center; 
         text-align: center;
         flex-wrap: wrap;
+        height: 100%;
     }
     .port-img-cont{
         gap: 1rem;
@@ -5005,23 +5009,23 @@
         opacity: 0.7;
         transition: all ease-in-out 0.5s;
     }
+    .port-img-cont-icon{
+        justify-content: center;
+        gap: 1rem;
+    }
+    .port-img-cont-icon a{
+        font-size: 1.5rem;
+    }
     .port-img-cont-icon,.port-img-cont h3,.port-img-cont p{
         width: 100%;
     }
-    .col-2 {
-        max-width: 100%;
-        margin-bottom: 2rem;
-    }
+    
 
     /* #col2-diff {
         height: 40%;
     } */
 
-    .col-3 {
-        max-width: 100%;
-        margin-bottom: 2rem;
-    }
-
+    
     .col-1::before {
         content: "";
         background-color: rgba(36, 135, 206, 0.6);
